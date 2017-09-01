@@ -1,0 +1,140 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("../Images/Hintergrund_final.png");
+	background-size: 100%;
+	font-family: sans-serif;
+	overflow: scroll;
+}
+
+#data {
+	color: #FFFFFF;
+}
+
+header{
+	background: #696969;
+	width: 100%;
+	padding: 40px 0;
+	color: #FFFFFF;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+nav ul{
+	background-color:	#000000;
+	overflow: hidden;
+	color: white;
+	padding: 0;
+	text-align: center;
+	margin-left: 150px;
+	margin-top:-150px;
+
+}
+nav ul li{
+	display: inline-block;
+	padding: 57px 2%;
+	font-size: 2em;
+	
+	
+}
+nav .logo{
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+
+#data {
+	text-align: center;
+}
+#Title {
+	font-size: 300%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+#Subtitle {
+	font-size: 200%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.Ort {
+	font-size:200%;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.row {
+	text-decoration:none;
+	color:#FFFFFF;
+	width: 100%;
+	position: center;
+	margin-bottom:50px;
+	margin-top:50px;
+}
+#verweis{
+	padding-left:100px;
+	padding-right: 0px;
+
+}
+.handle{
+	width: 100%;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 40px 2%;
+	cursor: pointer;
+	color: white;
+	margin-top:-200px;
+	margin-left: 145px;
+	font-size: 2em;
+	display: none;
+}
+@media screen and (max-width: 900px){
+  nav ul li{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 15px;
+	text-align: left;
+	font-size: 1em;
+
+}
+#Title {
+	font-size: 150%;
+	padding-top: 75px;
+}
+#Subtitle {
+	font-size: 100%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.Ort {
+	font-size:100%;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.logo {
+	height:70px;
+}
+}
+@media screen and (max-width: 400px){
+nav ul {
+	margin-top: -50;
+	max-height: 0;
+	width: 100px;
+}
+.showing{
+	max-height:20em;
+}
+
+#Title {
+	font-size: 150%;
+	margin-top:-100;
+}
+#Subtitle {
+	font-size: 100%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.Ort {
+	font-size:100%;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.handle{
+	display: block;
+}
+}

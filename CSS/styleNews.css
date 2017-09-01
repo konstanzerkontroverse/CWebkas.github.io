@@ -1,0 +1,167 @@
+body{
+	margin: 0px;
+	border: 0px;
+	padding-top: 0px;
+	background-color:black;
+}
+
+#navbar {
+	width: 90%;
+	height: 150px;
+	background-color: black;
+	color: white;
+	position: fixed;
+	top: 0;
+	margin-left: 150;
+	float: right;
+}
+#data {
+	color: white;
+}
+#data {
+	color: white;
+}
+
+header{
+	background: #696969;
+	width: 100%;
+	padding: 40px 0;
+	color: white;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: #0da7f2
+}
+nav ul{
+	background-color:	#000000;
+	overflow: hidden;
+	color: white;
+	padding: 0;
+	text-align: center;
+	margin-left: 150px;
+	margin-top:-150px;
+}
+nav ul li{
+	display: inline-block;
+	padding: 57px 2%;
+	font-size: 2em;
+	
+	
+}
+nav .logo{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.surface {
+	margin: 160  0;
+	text-align: center;
+	font-size: 150%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#subt{
+	font-size: 50%;
+	text-decoration:none;
+}
+.Inhalt {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-align: justify;
+
+}
+#Titel {
+	text-align: center;
+	font-size: 200%;
+}
+#Erklärung {
+	margin: 100 100 0 100;
+	text-align: left;
+	font-size: 150%;
+}
+.feed{
+	width: 100%;
+	margin-top: -40;
+}
+
+.row {
+	text-decoration:none;
+	color:white;
+	width: 100%;
+	position: center;
+	margin-bottom:50px;
+}
+#verweis{
+	padding-left:100px;
+	padding-right: 0px;
+
+}
+.handle{
+	width: 100%;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 40px 2%;
+	cursor: pointer;
+	color: white;
+	margin-top:-200px;
+	margin-left: 145px;
+	font-size: 2em;
+	display: none;
+}
+@media screen and (max-width: 900px){
+  nav ul li{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 15px;
+	text-align: left;
+	font-size: 1em;
+
+}
+#Title {
+	font-size: 150%;
+	padding-top: 75px;
+}
+#Subtitle {
+	font-size: 100%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.Ort {
+	font-size:100%;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.logo {
+	height:70px;
+}
+.surface {
+	margin: 10 10;
+	text-align: center;
+	font-size: 100%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#Erklärung {
+	margin: 10 10;
+	text-align: left;
+	font-size: 100%;
+}
+.feed{
+	position: left;
+	margin: 0 0 0 -400;
+}
+}
+@media screen and (max-width: 400px){
+nav ul {
+	margin-top: -50;
+	max-height: 0;
+	width: 100px;
+}
+.showing{
+	max-height:20em;
+}
+
+
+.handle{
+	display: block;
+	
+}
+.feed{
+	width: 250px;
+}
+}

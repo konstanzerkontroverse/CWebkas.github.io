@@ -1,0 +1,228 @@
+body{
+	margin: 0px;
+	border: 0px;
+	padding-top: 0px;
+	background-image: url("../Images/hip-square.png")
+}
+
+
+#data {
+	color: white;
+}
+
+header{
+	background: #696969;
+	width: 100%;
+	padding: 40px 0;
+	color: white;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: #0da7f2
+}
+nav ul{
+	background-color:	#000000;
+	overflow: hidden;
+	color: white;
+	padding: 0;
+	text-align: center;
+	margin-left: 150px;
+	margin-top:-150px;
+}
+nav ul li{
+	display: inline-block;
+	padding: 57px 2%;
+	font-size: 2em;
+	
+	
+}
+nav .logo{
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+
+.content{
+	text-align: left;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:150%;
+	line-height:150%;
+	margin: 50 100 100 100;
+}
+#Title {
+	font-size: 300%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#Subtitle {
+	font-size: 200%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.Ort {
+	font-size:200%;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+	
+
+@keyframes slidy{
+	0%{
+		left: 13%;
+	}
+	
+	10%{
+		left: 13%;
+	}
+	12%{
+		left: -113%;
+	}
+	22%{
+		left: -113%;
+	}
+	24%{
+		left: -213%;
+	}
+	34%{
+		left: -213%;
+	}
+	36%{
+		left: -313%;
+	}
+	46%{
+		left: -313%;
+	}
+	48%{
+		left: -413%;
+	}
+	58%{
+		left: -413%;
+	}
+	60%{
+		left: -313%;
+	}
+	70%{
+		left: -313%;
+	}
+	72%{
+		left: -213%;
+	}
+	82%{
+		left: -213%;
+	}
+	84%{
+		left: -113%;
+	}
+	94%{
+		left: -113%;
+	}
+	96%{
+		left: 13%;
+		
+	}
+}
+	
+
+#slider {
+	overflow: hidden;
+	margin:0 auto;
+    max-width: 720px;
+    max-height: 720px;
+	
+}
+
+#slider figure img{
+	width: 20%;
+	float:left;
+
+	
+}
+
+#slider figure {
+	position: relative;
+	width: 500%;
+	text-align: left;
+	font-size: 0;
+	animation: 20s slidy infinite;
+	
+}
+
+.row {
+	text-decoration:none;
+	color:white;
+	width: 100%;
+	position: center;
+	margin-bottom:50px;
+}
+#verweis{
+	padding-left:100px;
+	padding-right: 0px;
+
+}
+.handle{
+	width: 100%;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 40px 2%;
+	cursor: pointer;
+	color: white;
+	margin-top:-200px;
+	margin-left: 144px;
+	font-size: 2em;
+	display: none;
+}
+@media screen and (max-width: 900px){
+  nav ul li{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 15px;
+	text-align: left;
+	font-size: 1em;
+
+}
+#Title {
+	font-size: 150%;
+	padding-top: 75px;
+}
+#Subtitle {
+	font-size: 100%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.Ort {
+	font-size:100%;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.logo {
+	height:70px;
+}
+}
+@media screen and (max-width: 400px){
+nav ul {
+	margin-top: -50;
+	max-height: 0;
+	width: 100px;
+}
+.showing{
+	max-height: 20em;
+}
+.handle{
+	display: block;
+	
+}
+#Title {
+	font-size: 150%;
+	padding-top: 75px;
+}
+#Subtitle {
+	font-size: 100%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.Ort {
+	font-size:100%;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.content{
+	text-align: left;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:100%;
+	margin: 50 10 50 10;
+}
